@@ -1,0 +1,21 @@
+@media screen and (max-width:740px ) {
+   header{
+       height:140px ;
+
+   } 
+  
+  .search{
+    position: relative;
+top: 31px;
+right: 274px;
+  }
+  .search button{
+    position: absolute;
+    top: 23px;
+    left: 25px;
+  }
+  .search input{
+    width: 180px;
+  }
+
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* css variable for color  we can use  */
+/* use hit and trial method for everything */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    
+
+}
+
+nav {
+    display: flex;
+    
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    border-radius: 23px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(197, 161, 61);
+
+
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    align-items: center;
+}
+
+.search input {
+    width: 295px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 0 12px 0 25px;
+    flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.search button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   /* align-items: center ; */
+   overflow: hidden;
+    padding: 10px;
+    margin: 2px;
+    background-color: #a2acb5;
+}
+ .item{
+    background-color: red;
+    border: 1px solid rgb(50, 34, 74);
+    margin: 15px;
+    height: 95px;
+}
+.item img{
+    height: 68px;
+width: 80px;
+  
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    
+}
+.button{
+    font-size: 8px;
+margin: 3px;
+padding: 2px;
+width: 34px;
+}
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
